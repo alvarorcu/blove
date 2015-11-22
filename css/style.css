@@ -59,3 +59,13 @@
 .task-done{
   visibility:hidden;
 }
+#modo-pelea {
+  display:none;
+}
+#modo-pelea .card-action {
+  border-top: none;
+}
+
+#modo-pelea .select-wrapper input.select-dropdown {
+  border-bottom: none;
+}
