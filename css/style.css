@@ -1,0 +1,61 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.collection li h4 {
+	font-weight: 300;
+	margin-bottom:0;
+}
+.collection li p {
+	margin:0;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.small-l {
+	left:9px;
+	z-index:2;
+}
+.big-r {
+	left:-9px;
+	z-index: 5;
+}
+
+.btn-xlarge {
+  height: 150px;
+  line-height: 154px;
+  width: 150px; }
+  .btn-xlarge {
+    font-size: 40px; }
+
+  .btn-small {
+  height: 80px;
+  line-height: 84px; 
+  width: 80px; }
+  .btn-small {
+    font-size: 20px; }
+
+.upper-right {
+	position: absolute;
+	top: 16px;
+    right: 20px;
+}
+
+.card-reveal h5 {
+	padding-top: 25px;
+}
+
+#tarjeta-2 {
+  display:none;
+}
+
+.task-done{
+  visibility:hidden;
+}
