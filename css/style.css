@@ -69,3 +69,43 @@
 #modo-pelea .select-wrapper input.select-dropdown {
   border-bottom: none;
 }
+
+.float-tab {
+  position:absolute;
+  width:100%;
+  margin-top: -30px;
+}
+
+.float-tab a{
+  margin: 0 8px 0;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.btn-large .icon {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.logo {
+  position: absolute;
+  height: 35px;
+  margin-top: 16px;
+  margin-left: -14px;
+}
+
+#modo-pelea input[type=range] + .thumb {
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.87);
+}
+#modo-pelea input[type=range] + .thumb.active .value {
+  color: rgba(0, 0, 0, 0.87);
+}
+#modo-pelea input[type=range]::-webkit-slider-thumb {
+  background-color: #ffffff;
+}

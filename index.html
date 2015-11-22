@@ -26,7 +26,7 @@
         <li><a href="#">Inicio</a></li>
         <li><a href="#">Estadísticas</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse">BLOVE</a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><img class="logo" src="img/logo.png"></a>
     </div>
   </nav>
 
@@ -34,16 +34,21 @@
     <div class="col s12">
       <div id="modo-pelea" class="card red accent-2">
             <div class="card-content white-text">
-              <span class="card-title">¿Qué causó la pelea?</span>
+              <span class="card-title">¿Qué causó la pelea? <br></span>
               <div class="input-field col s12">
-              <select multiple>
-                <option value="" disabled selected>Puedes escoger varias opciones</option>
-                <option value="1">Engreimiento</option>
-                <option value="2">Mentira</option>
-                <option value="3">Desconfianza</option>
-                <option value="4">Infidelidad</option>
-              </select>
-            </div>
+                <select multiple>
+                  <option value="" disabled selected>Puedes escoger varias opciones</option>
+                  <option value="1">Engreimiento</option>
+                  <option value="2">Mentira</option>
+                  <option value="3">Desconfianza</option>
+                  <option value="4">Infidelidad</option>
+                  <option value="5">Otro</option>
+                </select>
+              </div>
+              <span class="card-title">¿Qué tan fuerte fue?</span>
+              <p class="range-field">
+                <input type="range" id="pelea1" min="0" max="5" />
+              </p>
             </div>
             <div class="card-action">
               <a href="#">Enviar</a>
@@ -94,7 +99,14 @@
         <div class="card-image">
           <img src="img/rest.jpg" class="materialboxed">
         </div>
-        <li class="collection-header cyan lighten-2 white-text">
+        <!--  botones
+        <div class="horizontal center float-tab">
+          <a class="btn-floating btn-large red"><img class="icon" src="img/food.png"></a>
+          <a class="btn-floating yellow darken-1"><img class="icon" src="img/gift.png"></a>
+          <a class="btn-floating green"><img class="icon" src="img/adventure.png"></a>
+        </div>-->
+        <li class="collection-header cyan lighten-2 white-text tab">
+
           <h4>Llévala a un buen restaurante <span class="badge red-text text-accent-3"><b>En 7 días</b></span> </h4>
           <input type="date" class="datepicker" placeholder="Elige una fecha">
         </li>
